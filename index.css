@@ -1,0 +1,126 @@
+body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h h h"
+    "m m m m m"
+    "m m m m m"
+    "m m m m m"
+    "f f f f f";
+    padding: 0;
+    margin: 0;
+    /* border: solid 3px red; */
+}
+
+header {
+    grid-area: h;
+    height: 50px;
+    /* background-color: BLACK; */
+    /* border: 3px solid green; */
+}
+
+main {
+    grid-area: m;
+    /* padding: 5rem; */
+    /* border: solid 2px pink; */
+    height: 100%;
+}
+
+footer {
+    grid-area: f;
+    /* background-color: BLACK; */
+    /* color: white; */
+}
+
+/* HEADER */
+
+/* NAV BAR */
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    margin: 0;
+    padding-right: 7rem;
+    padding-top: 12.5px;
+    height: 100%;
+    /* border: 3px solid grey; */
+}
+
+.nav_item {
+    /* border: solid grey 1px; */
+    margin-left: 8rem;
+    /* color: white; */
+}
+
+/* HERO */
+
+.hero {
+    background-color: lightblue;
+    padding: 7rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    /* border: grey solid 2px; */
+}
+
+.title_hero {
+    margin-bottom: 3rem;
+}
+
+.text_hero {
+    margin-bottom: 4rem;
+}
+
+.button_hero_container {
+    justify-content: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button_hero {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: solid 1px grey;
+    border-radius: 5rem;
+    /* background-color: ; */
+    /* color: white; */
+    width: 150px;
+}
+
+/* FOOTER */
+
+.footer_text {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact_icon_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.contact_icon {
+    height: 30px;
+    width: 30px;
+    border: solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.contact_icon:hover {
+    background-color: #FFE8DE;
+    border-color: black;
+}
+
+.copyright {
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
