@@ -1,3 +1,5 @@
+/* HOME */
+
 body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -87,7 +89,6 @@ footer {
 }
 
 /* ARTICLE */
-
 
 
 /* FOOTER */
