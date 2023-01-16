@@ -11,29 +11,53 @@ body {
     padding: 0;
     margin: 0;
     /* border: solid 3px red; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    background-color: #E4ECED;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     grid-area: h;
-    height: 50px;
-    /* background-color: BLACK; */
+    height: 60px;
+    background-color: white;
     /* border: 3px solid green; */
+    
 }
 
 main {
     grid-area: m;
     /* padding: 5rem; */
-    /* border: solid 2px pink; */
+    /* border: solid 2px blue; */
     height: 100%;
 }
 
 footer {
     grid-area: f;
-    /* background-color: BLACK; */
-    /* color: white; */
+    background-color: white;
+    border: solid white 1px;
+    padding: 40px;
+    /* border: red solid 2px; */
+    margin-bottom: 0;
 }
 
 /* HEADER */
+
+/* HEADER ICON */
+
+.header-icon-container {
+    /* display: flex; */
+    height: 100%;
+    margin: 10px;
+    padding-left: 3rem;
+    /* border: blue 4px solid; */
+}
+
+.header-icon {
+    height: 4rem;
+    /* padding: 40px; */
+}
 
 /* NAV BAR */
 
@@ -44,21 +68,29 @@ footer {
     list-style: none;
     margin: 0;
     padding-right: 7rem;
-    padding-top: 12.5px;
+    padding-top: 17px;
     height: 100%;
-    /* border: 3px solid grey; */
+    /* border: 3px solid red; */
 }
 
 .nav_item {
     /* border: solid grey 1px; */
     margin-left: 8rem;
+    color: #576C59;
+    font-weight: bold;
+    text-decoration: none;
     /* color: white; */
+}
+
+.nav_item:hover {
+    color: #ff6600;
+    font-weight: bold;
 }
 
 /* HERO */
 
 .hero {
-    background-color: lightblue;
+    background-color: #576C59;
     padding: 7rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -120,8 +152,7 @@ ul {
 }
 
 .contact_icon:hover {
-    background-color: #FFE8DE;
-    border-color: black;
+    border-color: #ff6600;
 }
 
 .copyright {

@@ -1,29 +1,6 @@
 /* VOLUNTEERS */
 
 
-/* HEADER */
-
-/* NAV BAR */
-
-.nav_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    list-style: none;
-    margin: 0;
-    padding-right: 7rem;
-    padding-top: 12.5px;
-    height: 100%;
-    /* border: 3px solid grey; */
-}
-
-.nav_item {
-    /* border: solid grey 1px; */
-    margin-left: 8rem;
-    /* color: white; */
-}
-
-
 /* form */
 .center {
     text-align: center;
@@ -167,43 +144,4 @@ body {
 .btn.active {
     background-color: #666;
     color: white;
-}
-
-/* FOOTER */
-
-.footer_text {
-    text-align: center;
-    padding: 10px;
-}
-
-ul {
-    list-style: none;
-}
-
-.contact_icon_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5px;
-    padding: 5px;
-}
-
-.contact_icon {
-    height: 30px;
-    width: 30px;
-    border: solid grey;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0 20px;
-}
-
-.contact_icon:hover {
-    background-color: #FFE8DE;
-    border-color: black;
-}
-
-.copyright {
-    padding: 10px;
-    text-align: center;
-    color: gray;
 }
