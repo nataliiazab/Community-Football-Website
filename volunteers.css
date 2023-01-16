@@ -14,6 +14,31 @@ body {
     box-sizing: border-box;
 }
 
+.contact-wrap h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact-wrap h3 {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 20px 0 50px 0;
+    font-weight: 100;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    border: solid 1px #576C59;
+    border-radius: 10px;
+}
+
 input[type=text],
 select,
 textarea {
@@ -22,6 +47,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    font-family: 'Quicksand', sans-serif;
 }
 
 input[type=email],
@@ -55,8 +81,10 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     padding: 20px;
+    width: 800px;
+    margin: auto;
 }
 
 .col-25 {
@@ -89,7 +117,13 @@ input[type=submit]:hover {
     }
 }
 
+hr {
+    margin: 50px 200px 75px 200px;
+    color:#576C59;
+}
+
 /*image carousel*/
+
 * {
     box-sizing: border-box;
 }
@@ -128,20 +162,26 @@ body {
 }
 
 /* Style the buttons */
-.btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px;
-}
 
-.btn:hover {
-    background-color: #ddd;
-}
-
-.btn.active {
+/* .btn.active {
     background-color: #666;
     color: white;
+} */
+
+.row button {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.row button:hover {
+    background-color: #ff6600;
 }
