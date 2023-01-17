@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Community Football Meet</title>
     <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/playersform.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
     </style>
@@ -18,7 +19,7 @@
         <div class="header-icon-container">
             <a href="#">
                 <img src="/IMAGES/footbal icon.png" class="header-icon">
-            </a> 
+            </a>
         </div>
         <nav>
             <ul class="nav_container">
@@ -36,24 +37,48 @@
                 </li>
             </ul>
         </nav>
+
     </header>
 
-    <main>
-        <div class="hero">
-            <h1>Community Football</h1>
-            <h3>Enjoy playing football, but have no one to play it with? You're in the right place!</h3>
-            <div class="button_hero_container">
-                <button class="button_hero">Play with us</button>
-                <button class="button_hero">Donate</button>
-            </div>
-        </div>
-        <!-- <article>
-            <h2 class="title_article">Our Message</h2>
-        </article> -->
+    <main class="application-form-main">
+
+        <h1>Apply to be a player!</h1>
+
+        <form class="application-form-container">
+
+            <h3>Please fill in this form and click 'Submit'. We will get back to you within 2 days.</h3>
+        
+            <input type="hidden" value="player-application" name="access_key" />
+
+            <label for="first_name">First name:</label>
+            <input class="input" type="text" name="first_name" id="first_name" placeholder="First Name" required />
+            <label for="last_name">Last name:</label>
+            <input class="input" type="text" name="last_name" id="last_name" placeholder="Last Name" required />
+            <label for="age">Age:</label>
+            <input class="input" type="number" name="quantity" id="age" placeholder="Age" min="16" required />
+            <label for="email">Email:</label>
+            <input class="input" type="text" name="email" id="email" placeholder="Email" required />
+
+            <label for="position">What position would you like to play as?</label>
+            <input class="input" type="text" name="position" id="position" placeholder="Tell us which position you prefer!"
+                required />
+        
+            <label for="found_where">Where did you hear about us?</label>
+            <input class="input" type="text" name="found_where" id="found_where" placeholder="Tell us where you heard about us!" required />
+            
+        
+            <label for="requests">Add any special requests:</label>
+            <textarea class="input" name="special_request" id="requests" rows="10" columns="10"
+                placeholder="Add your request here"></textarea>
+        
+            <button> Submit </button>
+        
+        </form>
 
     </main>
 
     <footer>
+
         <h3 class="footer_text">Join us on</h3>
         <ul class="contact_icon_container">
             <li>
@@ -71,6 +96,7 @@
                 </a>
             </li>
         </ul>
+
     </footer>
 
 </body>

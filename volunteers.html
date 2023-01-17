@@ -4,159 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Volunteers</title>
+    <link rel="stylesheet" href="/volunteers.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Volunteers</title> 
     <style>
-     /* Volunteer page */
-     /* form */
-     .center {
-    text-align: center;
-     }
-      body {
-        background-color: #576c59
-      }
-      * {
-  box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-input[type=email], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color:  #576c59;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-  /*image carousel*/
-  * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
-</head>
-<body>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@300&display=swap');
     </style>
-  </head>
+
+</head>
+
+<body>
   <body>
+
+    <header>
+      <div class="header-icon-container">
+        <a href="#">
+          <img src="/IMAGES/footbal icon.png" class="header-icon">
+        </a>
+      </div>
+      <nav>
+        <ul class="nav_container">
+          <li>
+            <a class="nav_item" id="home_nav" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav_item" id="players_nav" href="/players.html">Players</a>
+          </li>
+          <li>
+            <a class="nav_item" id="volunteers_nav" href="/volunteers.html">Volunteers</a>
+          </li>
+          <li>
+            <a class="nav_item" id="contact_nav" href="/volunteers.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    
+    </header>
 
     <section id="volunteers-form" class="contact-wrap">
       <h1 class="center">Volunteer for us!</h1>
-      <h2>
+      <h3>
         Do you want to join our community as a volunteer? We are looking for
         people with ambition, creativity and commitment to help deliver our
-        community. Please fill out the form below
-      </h2>
+        community. Please fill out the form below:
+      </h3>
+      
       <div class="container">
+
   <form action="/action_page.php">
   <div class="row">
     <div class="col-25">
-      <label for="fname">First Name</label>
+      <label for="fname">First Name:</label>
     </div>
     <div class="col-75">
       <input type="text" id="fname" name="firstname" placeholder="Your name">
@@ -164,7 +62,7 @@ body {
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="lname">Last Name</label>
+      <label for="lname">Last Name:</label>
     </div>
     <div class="col-75">
       <input type="text" id="lname" name="lastname" placeholder="Your last name">
@@ -172,7 +70,7 @@ body {
   </div>
     <div class="row">
     <div class="col-25">
-      <label for="email">Your email</label>
+      <label for="email">Your email:</label>
     </div>
     <div class="col-75">
       <input type="email" id="email" name="YourEmail" placeholder="Your email">
@@ -180,7 +78,7 @@ body {
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="learnAboutUs">Where did you learn about us?</label>
+      <label for="learnAboutUs">Where did you learn about us?:</label>
     </div>
     <div class="col-75">
       <select id="learnAboutUs" name="learnAboutUs">
@@ -192,7 +90,7 @@ body {
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="subject">How can you help our community? PLease provide as many details as possible.</label>
+      <label for="subject">How can you help our community? Please provide as many details as possible:</label>
     </div>
     <div class="col-75">
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
@@ -200,20 +98,20 @@ body {
   </div>
   <br>
   <div class="row">
-    <input type="submit" value="Submit">
+    <button> Submit</button>
   </div>
   </form>
+
 </div>
-      </form>
-    </section>
-    <section>
-      <h1 class="center">Our Photos</h1>
-      <div class="header" id="myHeader">
-  <p>Click on the buttons to change the size.</p>
-  <button class="btn" onclick="one()">Big</button>
-  <button class="btn active" onclick="two()">Medium </button>
-  <button class="btn" onclick="four()">Small </button>
-</div>
+
+    <hr>
+    <h1 class="center">Check out our Photos!</h1>
+    <div class="header" id="myHeader">
+        <p>Click on the buttons to change the size.</p>
+        <button class="btn" onclick="one()">Big</button>
+        <button class="btn" onclick="two()">Medium </button>
+        <button class="btn" onclick="four()">Small </button>
+    </div>
 
 <!-- Photo Grid -->
 <div class="row"> 
@@ -295,5 +193,29 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+
+  <footer>
+  
+    <h3 class="footer_text">Join us on</h3>
+    <ul class="contact_icon_container">
+      <li>
+        <a href="#">
+          <img src="/IMAGES/twitter icon.png" alt="twitter icon" class="contact_icon">
+      </li>
+      <li>
+        <a href="#">
+          <img src="/IMAGES/facebook icon.png" alt="facebook icon" class="contact_icon">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="/IMAGES/instagram icon.png" alt="instagram icon" class="contact_icon">
+        </a>
+      </li>
+    </ul>
+  
+  </footer>
+
   </body>
+
 </html>

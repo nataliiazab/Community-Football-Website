@@ -1,0 +1,96 @@
+/* title */
+
+body {
+    font-weight: 100;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* main */
+.application-form-main {
+    padding: 75px 0 75px 0;
+}
+
+/* form */
+.application-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.application-form-container h3 {
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+.player_info {
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    border: solid 1px #576C59;
+    border-radius: 10px;
+}
+
+.input:focus {
+    /* background-color: ; */
+    /* color: white; */
+    border-color: #ff6600 ;
+}
+
+fieldset {
+    border: solid #576C59 1px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.player_info {
+    display: flex;
+    flex-direction: column;
+}
+
+#first_name {
+    width: 300px;
+}
+
+#last_name {
+    width: 300px;
+}
+
+#age {
+    width: 50px;
+}
+
+label {
+    color: #576C59;
+}
+
+.application-form-container button {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.application-form-container button:hover {
+    background-color: #ff6600;
+}

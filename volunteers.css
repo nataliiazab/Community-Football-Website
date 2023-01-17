@@ -1,0 +1,205 @@
+/* VOLUNTEERS */
+
+
+/* form */
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: #576c59
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contact-wrap h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact-wrap h3 {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 20px 0 50px 0;
+    font-weight: 100;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    border: solid 1px #576C59;
+    border-radius: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #576c59;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+hr {
+    margin: 50px 200px 25px 200px;
+    color:#576C59;
+}
+
+/*image carousel*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%;
+    /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Style the buttons */
+
+.btn {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;;
+    width: 100px;
+    margin: 30px 10px 0 10px;
+}
+
+.btn:hover {
+    background-color: #ff6600;
+}
+
+/* .btn.active {
+    background-color: #666;
+    color: white;
+} */
+
+.row button {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.row button:hover {
+    background-color: #ff6600;
+}

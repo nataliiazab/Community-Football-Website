@@ -1,0 +1,84 @@
+/* MAIN */
+
+.players-main-section {
+    padding-top: 45px;
+}
+
+h1 {
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+h4 {
+    color: #576C59;
+    font-weight: 100;
+}
+
+/* PLAYER IMAGES */
+
+.player-icon-container {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.player-icon-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    /* justify-content: left; */
+    /* margin: 100%; */
+}
+
+.player-icon {
+    /* margin: 100px; */
+    width: 90%;
+    border-radius: 35px;
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* button to apply */
+
+.application-heading-container {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    line-height: 40px;
+    /* border: solid yellow 2px; */
+}
+
+.application-join {
+    display: flex;
+    text-align: center;
+    /* border: solid 2px red */
+}
+
+.application-join button {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 17px;;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 15px 0 15px 40px;
+}
+
+.application-join button:hover {
+    background-color: #ff6600;
+}
+
