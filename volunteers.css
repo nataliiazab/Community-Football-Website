@@ -118,7 +118,7 @@ input[type=submit]:hover {
 }
 
 hr {
-    margin: 50px 200px 75px 200px;
+    margin: 50px 200px 25px 200px;
     color:#576C59;
 }
 
@@ -162,6 +162,24 @@ body {
 }
 
 /* Style the buttons */
+
+.btn {
+    color: white;
+    background-color: #576C59;
+    border: none;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;;
+    width: 100px;
+    margin: 30px 10px 0 10px;
+}
+
+.btn:hover {
+    background-color: #ff6600;
+}
 
 /* .btn.active {
     background-color: #666;

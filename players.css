@@ -6,11 +6,19 @@
 
 h1 {
     margin: auto;
+    padding-top: 30px;
     text-align: center;
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: 100;
 }
 
 h4 {
     color: #576C59;
+    font-weight: 100;
 }
 
 /* PLAYER IMAGES */
